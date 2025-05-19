@@ -1,0 +1,54 @@
+My First Assignment
+
+Assignment: Exploring Intents in Android Development
+Objective:
+To familiarize students with the concept of intents in Android, including both explicit and implicit intents, and to understand how to use intents to navigate between activities and share data.
+
+Assignment Requirements:
+
+Project Setup:
+
+• Create a new Android project in Android Studio using Kotlin.
+• Set up a minimum of two activities: MainActivity and SecondActivity.
+
+Explicit Intents:
+
+• In MainActivity, create a button labeled "Go to Second Activity".
+• Implement an explicit intent that navigates from MainActivity to SecondActivity when the button is clicked.
+
+Passing Data Between Activities (Optional):
+
+• In MainActivity, add an EditText for user input.
+• Pass the user input from MainActivity to SecondActivity using an intent.
+• In SecondActivity, display the received data in a TextView.
+
+Implicit Intents:
+
+• In MainActivity, add another button labeled "Open Web Page".
+• Implement an implicit intent that opens a web browser and navigates to a predefined URL (e.g., "[https://www.example.com](https://www.example.com)") when the button is clicked.
+
+Handling Intents:
+
+• In MainActivity, add a button labeled "Share Text".
+• Implement an implicit intent to share a predefined text message using any available app on the device that can handle text sharing (e.g., messaging apps, email).
+
+Bonus Task:
+
+• Create a third activity called ResultActivity.
+• In SecondActivity, add a button labeled "Send Result".
+• Implement an intent to start ResultActivity and send back a result to SecondActivity.
+• Handle the result in SecondActivity and display it in a TextView.
+
+Deliverables:
+
+• Source code should be submitted on GitHub, with a link shared for review.
+• Ensure the project is well-organized with clear comments explaining the functionality of each component.
+• Screenshots or a short video demonstrating the working application.
+• Add Youtube video submission as well
+
+Evaluation Criteria:
+
+• Correct implementation of explicit and implicit intents.
+• Proper handling of data passing between activities (if implemented).
+• Functionality and user experience of the app.
+• Code quality, including readability and commenting.
